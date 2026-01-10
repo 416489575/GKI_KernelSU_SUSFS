@@ -9,6 +9,9 @@ Automated GKI kernel builds via GitHub Actions ([Chinese](README.md)/English).
 Attempted to build a GKI kernel with [hymo](https://github.com/Anatdx/hymo) mount meta-module integration, but the project currently only supports 6.6, so it is not fully merged into the main branch.
 Reference release: [hymo+gki](https://github.com/zzh20188/GKI_KernelSU_SUSFS/releases/tag/v2.0.0-r24)
 
+
+Prebuilt builds no longer include the patch; please use the [Unicode zero-width fix module](https://t.me/real5ec1cff/268) Xp module instead.
+
 ## KernelSU beyond SUKISU?
 Nearly all builds no longer use SUSFS, or even GKI, and compatibility is hard to guarantee.
 Therefore this project uses GKI without SUSFS.
@@ -31,4 +34,7 @@ The wiki covers downloading and flashing, bootloop recovery, bug reporting, tips
     * [Zygisk Next repo](https://github.com/Dr-TSNG/ZygiskNext)
     * [TrickyStore repo](https://github.com/5ec1cff/TrickyStore)
     * [Zygisk Next/TrickyStore shared channel](https://t.me/real5ec1cff)
+### Xp Modules
+1. FuseFixer.apk
+    * [Unicode zero-width fix module](https://t.me/real5ec1cff/268)
 ### To be expanded...
